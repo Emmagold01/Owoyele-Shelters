@@ -1,0 +1,57 @@
+/* Navigation */
+
+  #navbar .logo{
+    grid-template-columns: 1fr;
+    grid-gap: 1.2rem;
+    justify-self: center;
+    font-size: 1rem;
+    margin: .5rem;
+  }
+
+  #navbar .logo i {
+    display: none;
+  }
+  
+  #navbar ul li a {
+    display: none;
+    padding: 0.50rem;
+  }
+
+  /* showcase */
+  #showcase .showcase-content{
+    top: 70px;
+  }
+
+  #showcase .l-heading {
+    font-size: 2rem;
+  }
+  
+  .card {
+    min-width: 200px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  /* What */
+  #what .what-container,
+  #main-footer .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  #main-footer .footer-container > *:last-child {
+    grid-column: 1;
+  }
+
+  #about {
+    display: block;
+}
+
+  #about .about-img {
+    display: none;
+}
+
+#gallery .items {
+    grid-template-columns: 1fr;
+}
